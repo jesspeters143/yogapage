@@ -1,0 +1,70 @@
+body {
+  background: ivory
+}
+#logo {
+    margin: 0 auto;
+    width: 640px;
+    display: block;
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  color: sienna;
+}
+h2 {
+  text-align: center;
+  font-family: monospace;
+}
+#yellow-bg{
+  background: yellow;
+}
+.flex-item {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+#firstparagraph {
+  text-align: center;
+  font-family: verdana;
+  font-size: 13px;
+}
+img {
+  width: 70%;
+  height: 70%;
+}
+
+#photo {
+  border: 7px solid sienna;
+}
+
+#firstpicture {
+  text-align: left;
+  font-size: 10px;
+}
+h3 {
+  font-family: monospace;
+  font-weight: bold;
+}
+.subtitles{
+  font-size: 20px;
+}
+li {
+  font-family: verdana;
+  font-size: 11px;
+}
+#dharmaquote {
+  text-align: center;
+  font-style: italic;
+  color: salmon;
+  border: 7px dashed sienna;
+  border-width: 2px;
+  border-style: groove;
+  border-color: sienna;
+  width: 100%;
+}
+h3 {
+  text-align: center;
+}
