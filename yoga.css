@@ -1,48 +1,127 @@
 body {
   background: ivory
 }
+button{
+  display: flex;
+  float: right;
+  align-items: center;
+  font-family: 'Zen Loop', cursive;
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.menubutton {
+	border: 3px solid #b9936c;
+	background: #c4b7a6;
+	color: #b9936c;
+  font-family: 'Zen Loop', cursive;
+	font-size: 20px;
+	padding: 20px;
+	text-transform: capitalize;
+	border-radius: 6px;
+	display: flex;
+	transition: all 0.3s ease 0s;
+}
+.menubutton:hover {
+	color: #e6e2d3;
+	font-weight: 700;
+  font-size: monospace;
+  text-transform: capitalize;
+	letter-spacing: 3px;
+	background: none;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.3s ease 0s;
+}
 #logo {
     margin: 0 auto;
     width: 640px;
     display: block;
+  }
 h1 {
   text-align: center;
   font-size: 2rem;
-  font-family: "Lato", sans-serif;
-  color: sienna;
+  font-family: 'Zen Loop', cursive;
+  color: #e6e2d3;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 h2 {
   text-align: center;
   font-family: monospace;
+  color: #dac292;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
-#yellow-bg{
-  background: yellow;
+element.style {
 }
-.flex-item {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+.about {
+    background-image: url(https://cdn.downtoearth.org.in/library/large/2019-06-21/0.46078600_1561119532_gettyimages-963863844.jpg);
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    padding: 3px;
+    box-shadow: 0 0 15px grey;
+    background-size: 100% 100%;
 }
-#firstparagraph {
+.benefitsofyoga {
+    background-color: #dc9750;
+    color: #424242;
+    font-size: 20pt;
+    text-align: center;
+  }
+  #benefitsList {
+    list-style-position: inside;
+    padding-inline-start: 0px;
+  }
+#Aboutphoto {
+  display: flex;
+  border: none;
+  background-size: cover;
+  box-shadow: 0 0 15px grey;
+}
+#firstpicture {
+  text-align: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 11px;
+  color: #b9936c;
+}
+.abouth1{
+  font-family: 'Zen Loop', cursive;
+  color: #c1946a;
+}
+.container {
+	max-width: 840px;
+	margin: 0 auto;
+}
+.container {
+	margin: 20px auto;
+}
+.subtitle {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.aboutparagraph {
+  color: #b9936c;
   text-align: center;
   font-family: verdana;
   font-size: 13px;
 }
 img {
-  width: 70%;
-  height: 70%;
+  width: 20%;
+  height: 20%;
 }
-
-#photo {
-  border: 7px solid sienna;
-}
-
-#firstpicture {
-  text-align: left;
-  font-size: 10px;
+.learnMoreImage {
+  width: 20%;
+  height: 20%;
 }
 h3 {
   font-family: monospace;
@@ -56,6 +135,16 @@ li {
   font-size: 11px;
 }
 #dharmaquote {
+  text-align: center;
+  font-style: italic;
+  color: salmon;
+  border: 7px dashed sienna;
+  border-width: 2px;
+  border-style: groove;
+  border-color: sienna;
+  width: 100%;
+}
+#jessquote {
   text-align: center;
   font-style: italic;
   color: salmon;
