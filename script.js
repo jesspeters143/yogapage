@@ -23,6 +23,4 @@ function applyMode() {
    }
 }
 
-
-
 modeButton.addEventListener("click", applyMode);

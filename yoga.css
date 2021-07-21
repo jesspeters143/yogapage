@@ -174,3 +174,22 @@ li {
 h3 {
   text-align: center;
 }
+form input, textarea {
+	padding: 5px;
+	border-radius: 5px;
+	width: 240px;
+}
+
+form {
+	width: 250px;
+	margin: 0 auto;
+}
+
+form input[type="submit"] {
+	background-color: #e6c4c0;
+	width: 250px;
+}
+
+.submit-button-wrapper {
+	margin: 20px 0;
+}
