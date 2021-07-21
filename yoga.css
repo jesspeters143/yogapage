@@ -82,7 +82,24 @@ element.style {
   #benefitsList {
     list-style-position: inside;
     padding-inline-start: 0px;
+    font-size: 30px;
   }
+.container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    width: 300%;
+    height: 200%;
+}
+img {
+  width: 50%;
+  height: 50%;
+}
+
 #Aboutphoto {
   display: flex;
   border: none;
