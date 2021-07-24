@@ -76,30 +76,31 @@ element.style {
 .benefitsofyoga {
     background-color: #dc9750;
     color: #424242;
-    font-size: 20pt;
+    font-size: 30pt;
     text-align: center;
   }
   #benefitsList {
     list-style-position: inside;
     padding-inline-start: 0px;
-    font-size: 30px;
+    font-size: 25px;
+  }
+  li {
+    font-size: 20px;
   }
 .container {
+  display: flex;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
+    boarder: 3px solid #b9936c;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     width: 300%;
     height: 200%;
 }
-img {
-  width: 50%;
-  height: 50%;
+.aboutpict {
+  width: 40%;
+  height: 35%;
 }
-
 #Aboutphoto {
   display: flex;
   border: none;
@@ -149,7 +150,7 @@ h3 {
 }
 li {
   font-family: verdana;
-  font-size: 11px;
+  font-size: 20px;
 }
 #dharmaquote {
   text-align: center;
